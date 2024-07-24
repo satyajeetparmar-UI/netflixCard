@@ -1,14 +1,14 @@
-import NetflixSeries from "./components/NetflixSeries"
-import './components/Netflix.module.css';
+// import './components/Netflix.module.css';
 import "./components/Netflix.css";
+import { EventPropagation } from "./components/EventPropagation";
 
 
 export const App = () => {
   return (
     <>
       <section className="container">
-        <h1 className="card-heading">List of Netflix Series</h1>
-        <NetflixSeries />
+        <h1 className="card-heading">Event Propagation</h1>
+        <EventPropagation />
       </section>
     </>
   )

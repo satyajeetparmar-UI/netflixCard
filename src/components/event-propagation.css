@@ -1,0 +1,21 @@
+.main-div {
+  margin: 0 auto;
+  width: 500px;
+}
+.g-div , .p-div, .c-div {
+  border: 5px solid #303030;
+}
+.g-div {
+  background-color: cornflowerblue;
+  padding: 2rem;
+}
+.p-div {
+  background-color: aquamarine;
+  padding: 2rem;
+}
+.c-div {
+  background-color:gold;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
