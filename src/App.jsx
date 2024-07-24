@@ -1,14 +1,13 @@
-// import './components/Netflix.module.css';
 import "./components/Netflix.css";
-import { EventPropagation } from "./components/EventPropagation";
+import { NumberCount } from "./components/hooks/NumberCount";
 
 
 export const App = () => {
   return (
     <>
       <section className="container">
-        <h1 className="card-heading">Event Propagation</h1>
-        <EventPropagation />
+        <h1 className="card-heading">Use State</h1>
+        <NumberCount />
       </section>
     </>
   )
