@@ -1,4 +1,4 @@
-import { DerivedState } from "./components/DerivedState";
+import { LiftingState } from "./components/LiftStateUp";
 import "./components/Netflix.css";
 
 
@@ -7,7 +7,7 @@ export const App = () => {
     <>
       <section className="container">
         <h1 className="card-heading">Derived State</h1>
-        <DerivedState />
+        <LiftingState />
       </section>
     </>
   )
